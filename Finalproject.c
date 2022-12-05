@@ -1,6 +1,6 @@
 /* Hello! I am Md Shahrul Zakaria, a student Department of Software Engineering at Daffodil International University.
 This is my final project!
-ìBoarding allocation Systemî 
+‚ÄúBoarding allocation System‚Äù 
 
 //ID:221-35-1033
 */
@@ -23,13 +23,13 @@ void gotoxy(int x,int y)
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
 }
  
- 
+  /** structure that represent a student */
  typedef struct hostel{
  	int rno;
  	char name[30];              //name of student
  	char location[30];          //name of location
- 	char gender[6];            //name of gender
- 	int roomno;                 //name of room
+ 	char gender[6];            //  gender name
+ 	int roomno;                 //  room no
  		
  }hostel;
 
@@ -96,7 +96,7 @@ int main(){
 	{
 		system("cls");
 		gotoxy(30,6);printf("--------------------------------------------------");
-		gotoxy(34,10);printf("WECLOME TO Hell's Boarding");
+		gotoxy(34,10);printf("WECLOME TO Dhaka Boarding");
 		gotoxy(30,14);printf("-------------------------------------------------");
 		fflush(stdin);
 		gotoxy(30,18);printf("Enter User Name:");
