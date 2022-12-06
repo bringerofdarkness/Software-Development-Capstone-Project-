@@ -103,6 +103,7 @@ int main(){
 		gets(admin_user);
 		gotoxy(30,20);printf("Enter Password: ");
 		gets(admin_password);
+		system("cls");
 	
 		if(strcmp(admin_user,"zk666")!=0 || strcmp(admin_password,"666")!=0){
 			gotoxy(30,24);printf("Wrong User Name or Password\n");
